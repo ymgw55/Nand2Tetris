@@ -45,10 +45,14 @@
     @i
     D=M-1
     M=D         // i=i-1
+
+//change here
     @i
     D=M
     @SCREEN
     D=D-A
+//
+
     @LOOP
     D;JLT       // if i<0 goto LOOP
     
